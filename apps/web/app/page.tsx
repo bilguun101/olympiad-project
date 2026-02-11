@@ -3,7 +3,8 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div className={styles.main}>
-      <div className={styles.header}></div>
+      <div className={styles.sidebar}></div>
+      <div className={styles.viewport}></div>
     </div>
   );
 }
