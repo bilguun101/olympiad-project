@@ -2,14 +2,21 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: row;
 }
 .sidebar {
-  width: 280px;
+  width: 14%;
   height: 100vh;
-  background-color: blue;
+  border-right: 1px solid rgb(218, 218, 218);
 }
 .viewport {
+  width: 86%;
+  height: 100vh;
+  background-color: #e2e6ea;
+}
+.header {
   width: 100vw;
-  height: 100px;
-  background-color: red;
+  height: 90px;
+  border-bottom: 1px solid rgb(218, 218, 218);
+  background-color: white;
 }
